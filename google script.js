@@ -1,4 +1,4 @@
-var POST_URL = "https://discordapp.com/api/webhooks/581152556206784522/TtRcn7PRMEyMDkC_01uf4lIfRENFfXBKnMwfhFEQ86NWF6XwDWIURvnacqMInWYC7SSp";
+var POST_URL = "";
 
 function onSubmit(e) {
     var form = FormApp.getActiveForm();
