@@ -1,4 +1,4 @@
-var POST_URL = "WEBHOOKURL";
+var POST_URL = "https://discordapp.com/api/webhooks/581152556206784522/TtRcn7PRMEyMDkC_01uf4lIfRENFfXBKnMwfhFEQ86NWF6XwDWIURvnacqMInWYC7SSp";
 
 function onSubmit(e) {
     var form = FormApp.getActiveForm();
@@ -40,10 +40,10 @@ function onSubmit(e) {
         "method": "post",
         "payload": JSON.stringify({
             "embeds": [{
-                "title": "TOP TEXT CHANGE THIS IN SCRIPT",
+                "title": "@support " + "\n" + "Art Application",
                 "fields": items,
                 "footer": {
-                    "text": "BOTTOM TEXT CHANGE THIS IN SCRIPT"
+                    "text": "If it checks out give the user @🖌️"
                 }
             }]
         })
